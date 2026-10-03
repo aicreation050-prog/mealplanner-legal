@@ -1,0 +1,449 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MealPlanner - Privacy Policy</title>
+  <meta name="description" content="Official Privacy Policy for the MealPlanner mobile application (Package: com.mealplanner.meal_planner_app).">
+  <style>
+    :root {
+      --primary: #E11D48;
+      --primary-hover: #BE123C;
+      --bg: #0F172A;
+      --card-bg: #1E293B;
+      --text-main: #F8FAFC;
+      --text-muted: #94A3B8;
+      --border: #334155;
+      --info-bg: rgba(56, 189, 248, 0.08);
+      --info-border: #0284C7;
+      --warning-bg: rgba(245, 158, 11, 0.08);
+      --warning-border: #D97706;
+      --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: var(--font-family);
+      background-color: var(--bg);
+      color: var(--text-main);
+      line-height: 1.65;
+      padding: 32px 16px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .container {
+      max-width: 820px;
+      width: 100%;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 28px;
+      padding-bottom: 24px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .brand-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--card-bg);
+      padding: 8px 18px;
+      border-radius: 9999px;
+      border: 1px solid var(--border);
+      margin-bottom: 16px;
+      font-weight: 700;
+      color: var(--primary);
+      font-size: 15px;
+    }
+
+    h1 {
+      font-size: 32px;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+      margin-bottom: 8px;
+    }
+
+    .meta-tag {
+      color: var(--text-muted);
+      font-size: 14px;
+    }
+
+    .nav-bar {
+      display: flex;
+      justify-content: center;
+      gap: 16px;
+      margin-top: 16px;
+    }
+
+    .nav-bar a {
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 14px;
+      padding: 6px 14px;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      background: rgba(255, 255, 255, 0.02);
+      transition: all 0.2s ease;
+    }
+
+    .nav-bar a:hover, .nav-bar a.active {
+      color: var(--text-main);
+      border-color: var(--primary);
+      background: rgba(225, 29, 72, 0.1);
+    }
+
+    .card {
+      background-color: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 28px;
+      margin-bottom: 24px;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.25);
+    }
+
+    h2 {
+      font-size: 20px;
+      font-weight: 700;
+      margin-bottom: 16px;
+      color: var(--text-main);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      letter-spacing: -0.3px;
+    }
+
+    h3 {
+      font-size: 16px;
+      font-weight: 600;
+      margin-top: 18px;
+      margin-bottom: 8px;
+      color: var(--text-main);
+    }
+
+    p {
+      margin-bottom: 14px;
+      color: var(--text-muted);
+      font-size: 15px;
+    }
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+
+    ul, ol {
+      margin-left: 22px;
+      margin-bottom: 14px;
+      color: var(--text-muted);
+      font-size: 15px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    strong {
+      color: var(--text-main);
+    }
+
+    .info-box {
+      background-color: var(--info-bg);
+      border-left: 4px solid var(--info-border);
+      border-radius: 8px;
+      padding: 14px 16px;
+      margin: 16px 0;
+      font-size: 14px;
+      color: #BAE6FD;
+    }
+
+    .warning-box {
+      background-color: var(--warning-bg);
+      border-left: 4px solid var(--warning-border);
+      border-radius: 8px;
+      padding: 14px 16px;
+      margin: 16px 0;
+      font-size: 14px;
+      color: #FDE68A;
+    }
+
+    .table-container {
+      overflow-x: auto;
+      margin: 16px 0;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 14px;
+    }
+
+    th, td {
+      padding: 12px 14px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    th {
+      color: var(--text-main);
+      background-color: rgba(255, 255, 255, 0.03);
+      font-weight: 600;
+    }
+
+    td {
+      color: var(--text-muted);
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 6px;
+      font-size: 12px;
+      font-weight: 600;
+      background: rgba(255, 255, 255, 0.06);
+      color: var(--text-main);
+    }
+
+    footer {
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 13px;
+      margin-top: 36px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+    }
+
+    a {
+      color: var(--primary);
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding: 20px 12px;
+      }
+      .card {
+        padding: 20px;
+      }
+      h1 {
+        font-size: 26px;
+      }
+      h2 {
+        font-size: 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand-badge">
+        <span>🥗</span> MealPlanner
+      </div>
+      <h1>Privacy Policy</h1>
+      <p class="meta-tag">Application: <strong>MealPlanner</strong> (Package: <code>com.mealplanner.meal_planner_app</code>)</p>
+      <p class="meta-tag">Effective Date: October 3, 2026 | Last Updated: October 2026</p>
+
+      <nav class="nav-bar">
+        <a href="index.html">Legal Hub</a>
+        <a href="privacy-policy.html" class="active">Privacy Policy</a>
+        <a href="delete-account.html">Account &amp; Data Deletion</a>
+      </nav>
+    </header>
+
+    <!-- 1. Introduction -->
+    <div class="card">
+      <h2>1. Overview &amp; Our Commitment</h2>
+      <p>This Privacy Policy explains how <strong>MealPlanner</strong> ("we", "us", or "the app") collects, uses, stores, and protects personal, nutritional, and account information when you install and interact with the MealPlanner mobile application.</p>
+      <p>MealPlanner is designed around data minimization: we only collect the minimum information strictly required to calculate your personalized nutritional targets, track your food intake and meal plans, and facilitate secure synchronization between your devices.</p>
+      <div class="info-box">
+        <strong>Audited Implementation Fact:</strong> MealPlanner does <strong>NOT</strong> sell your personal data. We do not incorporate third-party advertising networks, third-party analytics trackers, or third-party behavioral profiling tools into the application.
+      </div>
+    </div>
+
+    <!-- 2. Account Types & Information We Collect -->
+    <div class="card">
+      <h2>2. Information Collected by Account Type</h2>
+
+      <h3>A. Guest Usage (No Registration Required)</h3>
+      <p>You can use MealPlanner fully as a <strong>Guest</strong> without providing your name, email address, or creating a password. When using the app as a guest:</p>
+      <ul>
+        <li>All food diary entries, custom recipes, meal plans, and biometric measurements are stored locally on your device in an isolated SQLite database.</li>
+        <li>No personal credentials are transmitted to or stored on remote cloud servers.</li>
+      </ul>
+
+      <h3>B. Email &amp; Password Accounts</h3>
+      <p>If you register a permanent account using email and password, we collect:</p>
+      <ul>
+        <li><strong>Email Address:</strong> Used strictly for account identification, session authentication, and data synchronization.</li>
+        <li><strong>Display Name (Optional):</strong> Used to personalize your dashboard inside the app.</li>
+        <li><strong>Password:</strong> Your password is <strong>never stored in plaintext</strong>. On our backend, passwords are derived using the industry-standard <strong>PBKDF2-HMAC-SHA256</strong> algorithm with 10,000 iterations and a cryptographically random, per-user 16-byte salt before storage.</li>
+      </ul>
+
+      <h3>C. Google Sign-In Accounts</h3>
+      <p>If you choose to authenticate via Google Sign-In, MealPlanner uses the official Google Sign-In SDK:</p>
+      <ul>
+        <li>We receive and verify a secure Google ID token (issued by <code>accounts.google.com</code>) containing your verified email address, Google account identifier (<code>sub</code> claim), and profile name.</li>
+        <li>We <strong>never</strong> have access to or store your Google account password.</li>
+        <li>Google Sign-In accounts are isolated and cannot be accessed via direct password login.</li>
+      </ul>
+    </div>
+
+    <!-- 3. Nutritional, Health & Biometric Data -->
+    <div class="card">
+      <h2>3. Health, Nutrition &amp; User-Generated Content</h2>
+      <p>To provide accurate dietary recommendations and tracking, users may enter health and lifestyle data into MealPlanner:</p>
+
+      <div class="table-container">
+        <table>
+          <thead>
+            <tr>
+              <th>Data Type</th>
+              <th>Specific Attributes Collected</th>
+              <th>Primary Purpose</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Profile &amp; Biometrics</strong></td>
+              <td>Age (13–120), biological sex/gender, height, current weight, target weight, activity level</td>
+              <td>Calculate basal metabolic rate (BMR), total daily energy expenditure (TDEE), and daily macronutrient targets.</td>
+            </tr>
+            <tr>
+              <td><strong>Food Diary &amp; Nutrition</strong></td>
+              <td>Food items logged, serving quantities, meal categories (breakfast, lunch, dinner, snack), consumption timestamps, water intake</td>
+              <td>Track daily caloric and nutrient intake against personalized health targets.</td>
+            </tr>
+            <tr>
+              <td><strong>Meal Plans &amp; Custom Content</strong></td>
+              <td>Generated meal schedules, custom recipes created by the user, saved favorites</td>
+              <td>Organize weekly meal planning and cooking workflows.</td>
+            </tr>
+            <tr>
+              <td><strong>Shopping List &amp; Pantry</strong></td>
+              <td>Grocery shopping list items, pantry stock items, check-off statuses</td>
+              <td>Help users purchase and track cooking ingredients.</td>
+            </tr>
+            <tr>
+              <td><strong>Progress &amp; Measurements</strong></td>
+              <td>Periodic body weight check-ins and body circumference measurements</td>
+              <td>Graph physical progress over time toward user-defined health goals.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="info-box">
+        <strong>User Ownership:</strong> All custom recipes, logged foods, and meal plans are user-owned data. You maintain complete control over your content and can wipe or export it at any time.
+      </div>
+    </div>
+
+    <!-- 4. Subscriptions & Payment Data -->
+    <div class="card">
+      <h2>4. Subscriptions &amp; Google Play Billing</h2>
+      <p>MealPlanner offers optional recurring subscriptions for premium features (<strong>MealPlanner Premium Monthly</strong> and <strong>MealPlanner Premium Annual</strong>):</p>
+      <ul>
+        <li>All purchases and recurring subscriptions are processed exclusively through <strong>Google Play In-App Billing</strong> (via the official <code>in_app_purchase</code> package).</li>
+        <li><strong>No Financial Data Collection:</strong> MealPlanner does <strong>NOT</strong> collect, receive, process, or store credit card numbers, debit card numbers, bank account details, or billing addresses.</li>
+        <li>Google LLC handles all payment processing and billing transactions. MealPlanner receives only an anonymized purchase token and active entitlement confirmation from Google Play.</li>
+      </ul>
+    </div>
+
+    <!-- 5. Data Storage, Security & Transport -->
+    <div class="card">
+      <h2>5. How Your Data is Stored &amp; Protected</h2>
+      <p>We implement balanced, audited security controls across each layer of the application:</p>
+
+      <h3>A. Local Device Storage</h3>
+      <ul>
+        <li><strong>Application Database:</strong> Nutrition logs, meal plans, custom recipes, and profile data are stored locally in an application-sandboxed SQLite database (managed via Drift).</li>
+        <li><strong>Session Credentials:</strong> Authentication tokens (JSON Web Tokens and refresh tokens) are encrypted on your device using <code>FlutterSecureStorage</code> (utilizing Android Keystore and EncryptedSharedPreferences).</li>
+      </ul>
+
+      <h3>B. Network Transport &amp; Cloud Synchronization</h3>
+      <ul>
+        <li><strong>Transport Encryption:</strong> All communication between the MealPlanner mobile app and our backend synchronization server occurs strictly over authenticated <strong>HTTPS / TLS</strong> connections. Cleartext HTTP is never permitted in production.</li>
+        <li><strong>Authentication:</strong> Cloud sync requests require a signed, short-lived <strong>HS256 JSON Web Token (JWT)</strong> transmitted via the HTTP <code>Authorization: Bearer</code> header.</li>
+        <li><strong>Accurate Security Statement:</strong> Cloud synchronization utilizes transport-layer encryption (HTTPS/TLS) and authenticated database isolation. We do <strong>not</strong> make false claims of end-to-end encryption (E2EE) or universal hardware-backed encryption.</li>
+      </ul>
+    </div>
+
+    <!-- 6. Third-Party SDKs & Analytics -->
+    <div class="card">
+      <h2>6. Third-Party Services &amp; Advertising SDK Policy</h2>
+      <p>MealPlanner maintains a clean, private software architecture:</p>
+      <ul>
+        <li><strong>No Advertising SDKs:</strong> There are <strong>no advertising SDKs</strong> integrated into MealPlanner (no Google AdMob, no Unity Ads, no AppLovin, etc.). You will never see third-party banner ads, video interstitials, or ad tracking inside the app.</li>
+        <li><strong>No Third-Party Analytics Trackers:</strong> MealPlanner does <strong>not</strong> include Google Analytics, Firebase Analytics, Facebook SDK, Adjust, AppsFlyer, or other behavioral telemetry trackers.</li>
+        <li><strong>No Third-Party Crash Reporting SDKs:</strong> We do not embed external crash analytics tools (such as Sentry or Firebase Crashlytics).</li>
+        <li><strong>Integrated Third-Party SDKs:</strong> The only third-party SDKs present are:
+          <ol>
+            <li><strong>Google Sign-In SDK</strong> (<code>google_sign_in</code>): For users who choose to log in with their Google account.</li>
+            <li><strong>Google Play In-App Billing SDK</strong> (<code>in_app_purchase</code>): For managing subscription purchases through Google Play.</li>
+          </ol>
+        </li>
+      </ul>
+    </div>
+
+    <!-- 7. Children's Privacy -->
+    <div class="card">
+      <h2>7. Children's Privacy</h2>
+      <p>MealPlanner is intended for users aged 13 and older.</p>
+      <p>We do not knowingly collect personal or health information from children under 13. If you believe a child under 13 has provided personal data to MealPlanner, please contact us via our developer support channel so we can promptly delete the account and associated records.</p>
+    </div>
+
+    <!-- 8. Data Retention & Account Deletion -->
+    <div class="card">
+      <h2>8. Data Retention &amp; Your Right to Deletion</h2>
+      <p>You have full ownership and control over your data in MealPlanner:</p>
+
+      <h3>In-App Account Deletion (Instant &amp; Permanent)</h3>
+      <p>You can permanently delete your account and all associated data at any time from within the mobile app:</p>
+      <ol>
+        <li>Open MealPlanner and navigate to <strong>Settings</strong>.</li>
+        <li>In the <strong>ACCOUNT</strong> section, tap <strong>Delete Account &amp; Data</strong>.</li>
+        <li>Confirm the deletion dialog.</li>
+      </ol>
+      <p>Upon confirmation, the app performs a complete wipe:</p>
+      <ul>
+        <li>Your user profile, food diaries, weight history, meal plans, custom recipes, pantry items, and shopping lists are deleted from the local database.</li>
+        <li>Your authenticated cloud records, sync mutations, and refresh tokens are permanently deleted from our server database in an atomic transaction.</li>
+        <li>All secure authentication sessions are cleared from your device.</li>
+      </ul>
+
+      <h3>Guest Data Wipe</h3>
+      <p>For Guest users, tapping <strong>Delete Account &amp; Data</strong> in Settings immediately wipes all local database records and guest session tokens from your device without contacting remote servers.</p>
+
+      <h3>Deletion Requests Without App Access</h3>
+      <p>If you uninstalled the application or cannot access your mobile device, you can submit an account deletion request by visiting our <a href="delete-account.html">Account &amp; Data Deletion Page</a> or contacting developer support.</p>
+
+      <div class="warning-box">
+        <strong>Google Play Subscription Notice:</strong> Deleting your account inside MealPlanner does <strong>not</strong> cancel recurring subscriptions billed by Google Play. You must cancel active subscriptions in the <strong>Google Play Store app &gt; Payments &amp; Subscriptions &gt; Subscriptions</strong>.
+      </div>
+    </div>
+
+    <!-- 9. Contact Us -->
+    <div class="card">
+      <h2>9. Contact &amp; Support</h2>
+      <p>If you have any questions, concerns, or requests regarding this Privacy Policy or your personal data, please contact the developer via:</p>
+      <ul>
+        <li><strong>Email:</strong> <a href="mailto:developer.spectralab@gmail.com">developer.spectralab@gmail.com</a></li>
+        <li><strong>Google Play Store:</strong> You may also reach us through the official developer contact details published on the <strong>MealPlanner Google Play Store page</strong>.</li>
+      </ul>
+    </div>
+
+    <footer>
+      <p>&copy; 2026 MealPlanner. All rights reserved.</p>
+      <p style="margin-top: 6px;">
+        <a href="index.html">Legal Hub</a> &bull;
+        <a href="privacy-policy.html">Privacy Policy</a> &bull; 
+        <a href="delete-account.html">Account Deletion</a>
+      </p>
+    </footer>
+  </div>
+</body>
+</html>
